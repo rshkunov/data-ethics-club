@@ -1,25 +1,6 @@
 # Data Ethics Club: [The Rise of Private Spies](https://newrepublic.com/article/161913/we-are-bellingcat-spooked-private-investigators)
 <!--Please don't edit the info panel below-->
 
-:::warning
-### :arrow_forward: What's this document?
-
-#### :writing_hand: Let's write together!
-We're trying to write up these discussions and include input from everyone.
-We hope you'll join us and help us to make any write-ups of the discussion a little more representative of everyone's point of view.
-
-Afterwards we tidy up these summaries and post them [on the website](https://very-good-science.github.io/data-ethics-club/contents/write_ups/write-ups.html).
-
-#### :computer: Writing in Markdown
-We're using HackMD to write a collaborative Markdown document. 
-Markdown is a format for writing text that displays nicely on websites.
-On the left you can edit, and on the right you can see view.
-
-#### :grey_question: Getting Markdown help
-There is a question mark symbol at the top of the screen that will bring up a cheat sheet, e.g. *write between single asterixes to write in italics* **or double asterixes for bold**.
-You can also use the buttons at the top of the edit panel.
-:::
-
 ## Welcome
 Hi :wave:, welcome to Data Ethics Club! 
 Thank you for being here!
@@ -46,177 +27,72 @@ __Name, Role, Affiliation, Where to find you, Emoji to describe your day__
 - Kamilla ['Milli'](https://www.linkedin.com/in/kamilla-wells/) Wells, Citizen Developer
 - Dan Gorringe, Research Engineer Intern, Hadean, [DanGorringe](https://github.com/DanGorringe)
 
-## Discussion
-Each week, we split into breakout rooms of 4-6 people to discuss the material. 
-Please make space for one another to talk - keep your eyes open :eyes: for people with their hands up :hand: and invite them to talk.
+## Who is Bellingcat? They are Bellingcat.
 
-As always we have provided some discussion points to get the conversation moving, but feel free to discuss anything relating to the materials!
+The idea of Bellingcat formed initially from amateur internet sleuths using documenting war crimes in the Middle East from the comfort of their own home. From there, it gradually evolved as these sleuths developed expertise in open source data analysis techniques and began diversifying their staff to build a global network of volunteers and employees.
 
-::: info
-### :information_source:  Notes on writing
-#### Writing things down is optional
+The name of the organisation comes from a fable in which a group of housemice are being terrorised by a cat. They can outrun the cat, but can never hear the cat coming. To get around this, they plan to put a bell on the cat. The question is, who will put the Bell on the Cat? The elected mouse is the Bellingcat.
 
-The following are all good options:
-- :heavy_check_mark: Writing some notes in here as you discuss.
-- :heavy_check_mark: Writing some notes in here up to a week after the discussion at any time.
-- :heavy_check_mark: Not writing any notes in here at any time.
+The analogy extends somewhat dramatically to the real world, with the general population represented by the mice. Those who seek to do harm are the cat ([from Mexican drug lords and those who commit crimes against humanity, to tracking the use of chemical weapons and conflicts worldwide](https://www.bellingcat.com/about/)). Bellingcat, along with companies they are in cooperation with (which includes journalistic collaberators, law enforcement/intelligence agencies and human rights groups) are the Bellingcat.
 
-#### What to write
-Suggestions for what to write down (if you want to):
-- Any interesting quotes from the discussion
-- Links to other material that came up in the discussion
-- Parts of the reading material that you felt particularly strongly about
-:::
+Over the past seven years, Eliot Higgins ([Bellingcat's founder](https://time.com/5943393/bellingcat-eliot-higgins-interview/)) and his team have used open-source information to uncover war crimes in Syria, unmask neo-Nazis who stormed Charlottesville, Virginia, and name the alleged Russian poisoners of former spy Sergei Skripal and his daughter, Yulia in the U.K. Bellingcat’s work in Syria is being used by the European Center for Constitutional and Human Rights (ECCHR) to build war crime cases and Higgins sits on the technology advisory board to the International Criminal Court to help them understand how to apply open-source investigation to their work.
 
-### Discussion
+With Bellingcat's fingers in many pies, there's natural confusion and conflation of commerical/private as well as espionage/citizen journalism. Bellingcat identify their work as priamarily investigative (as Higgins noted in a [tweet response](https://twitter.com/EliotHiggins/status/1420370845143285762)). But they have also been self described as "An Intelligence Agency for the People". As the article of our interest notes, this is a slogan notorious for its association with Wiki Leaks, a whistleblower organisation who has drawn [criticism](https://en.wikipedia.org/wiki/WikiLeaks) for inadequately curating its content and violating the personal privacy of individuals.
 
-#### Suggested Questions
+Journalists have the power to hold people in power account such as the [Panama Papers](https://www.icij.org/investigations/panama-papers/) or more recently ex-health secretaries [violating social distancing](https://www.bbc.co.uk/news/uk-57625508). With the rise of open source investigative journalism, we're see that data breaches can have positive or negative impacts. These data breaches can be accidental, open data (which user may or may not have intended to make public) or obtained through more so called "black hat" methods; social engineering, hacking - the techniques associated with the modern day spy. It each case, it's important for us to consider whether use of such data is either legal or ethical.
 
-- In what circumstances is it ethical for publicly available data (e.g. from social media, Google maps) or leaked or hacked data to be used to create intelligence reports?
-- How reliable are the kinds of social media data that Bellingcat are using? Could digital evidence be faked or planted?
-- What are the implications of police departments working with private investigators who use these methods?
-- **Bonus Question:** What change would you like to see on the basis of this piece? Who has the power to make that change?
+Now with the rise of social media, where events are being recorded and published by members of the public, your twitter feed becomes a faster (albeit potentially less reliable) source of the latest news. January 6th, during the US Capitol Building attack, one person was fatally shot when storming the capital and there was realtime social media trying to write narratives, framing those illegally entering the Capitol building as legitimate protestors, illegimate insurgents/rioters or even democrat posers performing a false flag operation.
 
-#### Room 1
+The investigative exploits of organisations like Bellingcat make for fascinating reads and potentially stories of hope for the little guy - the brave little mice putting the bells on the cats seeking to do harm to warn the rest of us. The fact that there's nothing special about an organisation like Bellingcat is both something that inspires hope and fear. Ordinary people can use open source data to conduct their own investigations. This has huge potential both for good and for bad and is currently largely unregulated. It's one thing when such techniques are being used to track Russian hitsquads who are suspected of poisoning political opposition, but what if those same techniques were used to track you when you're applying for a loan, by a stalker  to track a victim or applied on mass by a government to keep track of its citizens?
 
-General thoughts
-- possible confusion or conflation of terms: private/ commercial? espionage/ citizen journalism? 
-- are these terms merged on purpose or accident?
+This is a writeup of our Data Ethics Group discussion on the 28th of July 2021. The writeup was written by Huw Day, attempting to collate the notes, ideas and opinions of all those in attendance of the discussion. "We"=someone at data ethics group. As per usual, this discussion led us to ask many questions in our quest to answer some.
 
-##### Q1
-- inference from social media has different legal implications
-- might not be possible to come up at generalisable answer?
-- would the distinction be between public vs hacked/leaked data? (with first ifnd being ok?)
-- what about doxxing? is good/bad intention a key indicator?
-- what do we exactly mean by intelligence report? espionage work? or any report which analyses 'raw' data
-- example of Matt hancock as a case study of such?
-- informed consent of what happens to your social media activity?
-- tension between openness of the internet VS protection of the info flow
-- to what extent do we need this fearmongering? maybe most people will use data in ok way?
-- what about people being 'accidentally' malicious?
+## When is it ethical to use publicly available data?
 
-##### Q2
-- takes a lot of effort to do it - unlikely to be a huge concern in the long term
-- what is the 'digital' on this question - is this a new debate?
-- big data increases the volume of this - bigger reach, more people, faster spread of info
-- what do we mean by reliable? does this word imply that there is some objective truth? 
+It seems somewhat surreal that amount of information we willingly share on social media. Our hobbies, our date of birth, perhaps even where we live. This leaves a tricky question, if we post this all in the public domain, should we have any control over who is allowed to use it? 
 
-##### Q3
-- how much impact does misinfo have in the larger scheme of things?
-- unclear identity of bellingcat ? spies? journalists? activists?
-- how do they really try to influence policy? what is their plan?
-- policE is a different matter? a bit outside of our expertise
+Inference from social media has different legal implications and so it might not be possible to come up with generalisable answer that fits all possible circumstances. Would the distinction be between public vs. hacked or leaked data? This also brings up doxxing - to search for and and publish private or identifying information about a particular individual on the internet, typically with malicious intent. Is good/bad intention a key indicator? How reliable is this as a legal framework?
 
-##### Bonus question
-- people should be more suspicious of 'evidence' presented to them
-- more research on why things go viral?
+This brings back to the debate of informed consent of what happens to your social media activity. What's fair game? And in what circumstances? Does whether something is fair game change depending on the circumstances? Often social media accounts default to public (i.e. very limited) privacy settings. If someone hasn't resitrcted access then they are "fair game" in a sense but people don't expressly consent to it because they just don't know to. How much does an individual have to take responsibility for other people's snooping? 
 
-##### Misc
+Is the ethical issue with giving the tools or misuing the tools? Any restriction will inevtiably affect those with ill intent as well as those with good intent. Indeed what constitutes "ill-intent". Some in marketing might argue that building ad-profiles so that they can give you more relevant advertisements constitutes good-intent, but that does not mean the rest of us are not somewhat easy that every one of our clicks is compiled into an interpretation of who we are. 
 
-#### Room 2
+Some things have been created out of malice and have in some ways turnt out for the better and vice versa. We discussed previously how certain statistical techniques were initially used to track deaths - arguably a good thing? Those same techniques were developed centuries later in the use of predictive policing - arguably a bad thing. Who is responsible for making sure data is used correctly? The collectors or the analysts? How do we enforce this?
 
-##### Q1
-- What's fair game? And in what circumstances? Does whether something is fair game change depending on the circumstances?
-- Is the ethical issue with giving the tools or misuing the tools? If you restrict some bad guys then you restrict some good guys too. 
-- Facebook the public bit, if someone hasn't resitrcted access then they are "fair game" in a sense but people don't consent to it because they just don't know. How much does an individual have to take responsibility for other people's snooping?
-- Some things have been created out of malice and have been good and vice versa. We collect data for the good but what happens later. Sometimes we collect the wrong things for too long.
-- Who is responsible for making sure data is used correctly? The collectors or the analysts?
-- 
+There exists a tension between the openness of the internet versus the protection of the information flow. Maybe we should just trust that open organisations like Bellingcat will use this wealth of information for the greater good and potentially accept the fallout of malicious actors using the same data, hoping for a net positive effect? To what extent do we need this fearmongering? Maybe most people will use data in a positive (or at least harmless) way?
 
-##### Q2
-- Labelling how reliable data is important. Being honest about gaps in your data (explicit or otherwise).
-- Proxy measures combined look really good but might not be accurate. The gaps are not being focussed on.
-- Warrants are needed for law enforcement to monitor social media in the UK and then the chain of evidence has to be followed in the court of law. You lose this a bit as you cross borders.
-- Worry that if you get a story that's good enough, you can line up the facts to make it look good.
-- No such standards apply to private agencies. 
-- However, Bellingcat's evidence has been used at the ICC to convinct Russia of shooting down Dutch aeroplane over Ukraine.
-- Are they succeptible to viewing themselves as heroes?
-- Sometimes as individuals we have more freedom to do things and we can avoid these restrictions.
-- For example, someone tracked schools being closed down due to covid on social media. Something that wasn't being collected by the public sector.
-- Human rights activisits being monitored for "civil unrest", containing them in these structures. But these structures are built around colonialism.
-- Is CCTV redudant? Sometimes connections still don't pan out. Maybe we have too much data/don't do anything with it.
-- 
-##### Q3
-- Evidence comes from people. Police don't always have the resources/ability to collect information. So if someone else has collected it (even just witness statements), it should still be admissable (as long as it's verifiable).
-- What happens if the evidence is admissable in one country but not the other?
-- If vigilantes obtain information in illegal ways, perhaps the police would have difficulty using that evidence. 
-- If something obtained illegally is left on a train, can it then be admitted by someone who finds it. For how long after it's left?
-- Law enforcement are in a difficult position. Reminds of paedophile hunters, setting up honeytraps.
-- Is it different between first time offenders/repeat offenders?
-- Pros and cons of the dark web?
-- What's the difference between police outsourcing to Bellingcat/to other experts and using expert witnesses?
-- Perhaps Bellingcat are just open source data analyst experts who can be consulted like private professionals (DNA experts etc.)
-- How good are they at doing it? How reliable is it? How do people take it in court?
-- If people take it as gospel in court and they're not reliable, that's bad. If people think it's rubbish and they are reliable, that's bad.
-- How do we verify it? What standards can we hold them to?
-- Trust and expert opinions come up as much. - - Maybe you can't trust people like Bellingcat, do they just go to the highest bidder? 
-- Perhaps they aren't untrustworthy, but if they're creating stories (even if all the evidence is there), then that could be dangerous.
-- Fake news travels faster than facts. Maybe they're telling stories that follow their confirmation bias. They're only humans.
-- People don't like uncertainty. But them being really open (more open than some government organisations).
-- 
-##### Bonus question
+One of the issues is that "facts" and numbers can still be misleading, e.g. it's true that double-vaccinated people have gotten covid. What this lone statement ommits to mention is that they are [3 times less likely to get it than a vaccinated person](https://www.gov.uk/government/news/react-study-shows-fully-vaccinated-are-three-times-less-likely-to-be-infected).
 
-##### Misc
+Unfortunately some of the people who are really good at data literacy are conspiracy theorists who seek to use the facts in front of them to tell their preferred narrative. It takes far longer for us to verify a story than for us to [retweet](https://science.sciencemag.org/CONTENT/359/6380/1146.abstract) it. Bellingcat for their part include extremely detailed evidence chains and seem to be quite open about what is fact and what is simply speculation. Whilst this is commendable, what's to stop another organisation telling their own stories using open data in a way that fuels their preferred narrative?
 
-#### Room 3
+## How reliable are the kinds of social media data that Bellingcat are using?
 
-- Cecil Hotel (mystery netflix - fictional) with private/online sleuths
-- Stealing government ministers - journalism can hold people to account (panama papers).
-- Data breaches can have positive or negative impacts
+As we've discussed before, labelling how reliable data is important. Being honest about gaps in your data (explicit or otherwise) is a vital part of transparency. A collection of proxy measures combined can form a coherent looking narrative, especially if the gaps in the data and assumptions are ommitted. This all requires a huge amount of effort to both verify by those analysing the data initially as well as readers after the fact. Your average reader won't verify the claims. How many of the links in this article have you clicked on so far? 
 
-- Bellingcat January 6th US stormed the capital - one person was fatally shot when storming the capital - and there was realtime social media trying to write narratives about that (framing as insurgents or not).
-- When the Berlin wall came down, they found that there was something recording all phone calls between west and east germany - huge breach of privacy, but 
-- Social engineering - Black hat - spying, phishing, hacking, etc - when is it A) legal and B) ethical?
-- Accidental data breaches, open data (which user may or may not have intended to make public).
-- Pandemic response, data protection - initial track and trace on paper in pubs and used for getting girls phone numbers. The phone helpline for people on the shielding list seemed like a scam because they couldn't call back and didn't have any way of proving it was secure.
-- 
+Some might argue that this amount of effort will put off open source analysts in the future, but with big data increasing the volume of information availible and social media making it easier than ever to share with people over the world, we might see more and more people with a bigger reach, leading to a faster spread of information - factual or otherwise.
 
-##### Q1
-- Ethics is perceived as situational sometimes: is it ethical to publish "fake news" to get a less bad outcome? There are genuine circumstances in which news lies to save lives.
-- If you have an article in the NYT and you say it was sunny, you have to prove it with a weather report
-- "facts" and numbers can still be misleading, e.g. it's true that double-vaccinated people have gotten covid (data literacy)
-    - The people who are really good at data literacy are conspiracy theorists 
-- If digital literacy isn't a good defense against false news, then what is?
-    - A wider context (read things you wouldn't usually)
-- On bullshit: Once you remove "truth" as a meaningful thing, you
+This leads to a somewhat awkward discussion of what we mean by reliable? This is particuarly an issue with discussing the intent of others. Much of Bellingcat's work has documented events that have happening; [here](https://www.bellingcat.com/news/mena/2021/07/20/a-new-platform-tracks-airstrikes-in-yemen/) is where airstrikes happened in Yemen, [here](https://www.bellingcat.com/news/americas/2021/05/10/a-new-platform-maps-colombias-escalating-police-violence/) is where police violence has escalated in Colombia and [there](https://www.bellingcat.com/news/2021/04/01/mahbere-dego-clues-to-a-clifftop-massacre-in-ethiopia/) is where a mass killing occured in Ethiopia. Some evidence is more compelling than others, but if you're arguing if an attrocity happened or not, as opposed to the intent behind those who committed such an attrocity, there is an objective truth to be found.
 
-##### Q2
-- Police deal with informants who might be lying.
+With Bellingcat's collaberations with law enforcement, we arrived upon the natural question of what legal frameworks do organisations like Bellingcat operate under? Warrants are needed for law enforcement to monitor social media in the UK and then the chain of evidence has to be followed in the court of law. You lose this a bit as you cross borders but the premise remains. No such standards apply to private agencies. 
 
-- Planting false information:
-    - Introduces an assymetry based on groups powers to control a narrative with disinformation. 
-    - Different identities, networks of bots (partly user-controlled)
-    - A high percentage of tweets are automated, but less accounts
+Sometimes as private individuals we have more freedom to do things and we can avoid these restrictions - for better or for worse. For example, someone tracked schools being closed down due to covid on social media, this was openly availible data that wasn't being collected by the public sector. This information could be useful in helping inform decisions about future lockdowns and understanding how the virus is spreading.
 
+Just because the information did not come first hand from a member of law enforcement, does not mean it is unreliable - police rely on witness testimony frequently, as well as relying on experts (for example in forensic analysis). Why should open source analysis be any different? If open source analyists are to fall into the role of expert witnesses, how can we hold them to a high standard? A forensic analyist might have a relevant degree in forensic sciene, a pathologist in medicine. Somehow requiring rigid standards on open source analysts might be against the spirit of Bellingcat, who run [workshops](https://www.bellingcat.com/workshops/) for anyone to attend to learn about how they can perform open source analysis. 
 
-##### Q3
+One other concern about unregulated, open source analysis is that it introduces an assymetry based on groups powers to control a narrative with disinformation. This can be somewhat regulated by a strict chain of evidence so that such information cannot be easily tainted for the purposes of legal evidence. But with information a click away, we're impatient to read easily digestible, readily obtainable news as soon as it is relevant. If the general public are unwilling to read the chain of evidence in news articles before sharing them, are we not at fault for the spread of disinformation, even if we are not the original authors of it?
 
-##### Bonus question
+## What are the implications of police departments working with private investigators who use these methods?
 
-##### Misc
+With their fingers in the pies of espionage, journalism and human rights activism, a valid question is, who are Bellingcat? Each article published by Bellingcat includes a link to the contributors and there's a comprehensive list of contributors on their [website](https://www.bellingcat.com/contributors/). Asking a larger structual question of who are Bellingcat and what is their agenda, we can at least see transparency in their finances and a list of their [contributors](https://www.bellingcat.com/about/) and a published policy plan (same link). There is no requirement for a private company to do this, but it lends to an image of transparency. Perhaps the issue then is not with Bellingcat, but with private investigators/organisations that don't takes these steps towards transparency. 
 
-Article about dynamics of fake news spreading on Twitter https://science.sciencemag.org/CONTENT/359/6380/1146.abstract
+At the end of the day, evidence comes from people. Police don't always have the resources/ability to collect information directly so if someone else has collected it (even just witness statements), it should still be admissable (as long as it's verifiable). This can of course lead to issues across boards if the evidence is admissable in one country but not another. If the information is obtained in illegal ways, perhaps the police would (or at least should) have difficulty using that evidence but this is a bit outside the expertise of the data ethics group.
 
-#### Room 4
+This led us to an interesting hypothetical: If information obtained illegally is left on a train, can it then be admitted by someone who finds it? For how long after it's left? The line is not so clear. Law enforcement can be in a difficult position here. They inevitable have to rely on judgement calls to dictate how they interpret the law. Unfortunately, this judgement can often be heavily biased.
 
-##### Q1
+What's the difference between police outsourcing to Bellingcat/to other experts and using expert witnesses? Bellingcat characterise themselves primarily as investigators, but perhaps for legal purposes they are just open source data analyst experts who can be consulted like private professionals (such as pathologists, medical statisticians etc.)
 
-##### Q2
+Lot's of question pop up here about quality control; How good are they at doing it? How reliable is it? How do people take it in court? If people take it as gospel in court and they're not reliable, that's obviously bad. If people think it's rubbish and they are reliable, that's also bad.
 
-##### Q3
+How do we verify it? What standards can we hold them to? Trust and expert opinions come up alot. Maybe you can't trust unaccredited/unverified private organisations in general - do they just go to the highest bidder? 
 
-##### Bonus question
-
-##### Misc
-
-
-## After this session
-You have a week to add anything else that you'd like to to this document. 
-After that, we'll try to make this document a little more cohesive, then we'll send a link around to the write up of the discussion in the next mailing list email.
-
-## Feedback on the format
-Please feel free to leave us some notes below on how the discussion group went for you this time, positive or negative, and any suggestions to improve (you can always [email us](mailto:grp-ethicaldatascience@groups.bristol.ac.uk) instead). 
-We do read these and make changes :sparkles: 
-
-* Suggestion here
-* Another suggestion here
+Perhaps people aren't inherently untrustworthy, but if they're creating narratives (even if all the evidence is there), then that could be dangerous. As we've noted before, fake news travels faster than facts. People might be telling stories that follow their confirmation bias. We're all only humans after all. But should we stop anyone from telling these stories? It's a difficult line to walk, but we must walk it. Currently many policy makers are stood still on the issue.
